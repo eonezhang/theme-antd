@@ -1,0 +1,21 @@
+{
+  "name": "vue-component-theme-antd",
+  "version": "0.1.0",
+  "description": "Common Utils For Vue Component",
+  "keywords": [
+    "vue",
+    "theme",
+    "antd"
+  ],
+  "main": "./src/index.less",
+  "homepage": "https://github.com/vue-components/theme-antd",
+  "author": "Koala Huang <dapixp@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vue-components/theme-antd.git"
+  },
+  "bugs": {
+    "url": "http://github.com/vue-components/theme-antd/issues"
+  },
+  "licenses": "MIT"
+}
