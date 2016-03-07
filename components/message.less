@@ -6,6 +6,7 @@
   z-index: 1050;
   width: 100%;
   top: 16px;
+  left: 0;
 
   &-notice {
     width: auto;
@@ -19,8 +20,8 @@
     right: 50%;
     padding: 8px 16px;
     border-radius: @border-radius-base;
-    border: 1px solid #d9d9d9;
-    box-shadow: @overlay-shadow;
+    border: 1px solid @border-color-base;
+    box-shadow: @box-shadow-base;
     background: #fff;
     display: block;
   }
@@ -33,8 +34,12 @@
     color: @error-color;
   }
 
+  &-warn.anticon {
+    color: @warning-color;
+  }
+
   &-info.anticon,
-  &-loading.anticon  {
+  &-loading.anticon {
     color: @primary-color;
   }
 
@@ -42,5 +47,6 @@
     margin-right: 8px;
     font-size: 14px;
     top: 1px;
+    position: relative;
   }
 }

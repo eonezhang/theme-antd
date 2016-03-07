@@ -11,7 +11,7 @@
 
 .@{slider-prefix-cls} {
   position: relative;
-  margin: 10px 0;
+  margin: 10px 8px;
   height: 12px;
   border-radius: 5px;
   background-color: #e9e9e9;
@@ -126,13 +126,15 @@
       background-color: @slider-disabled-color !important;
     }
 
-    .@{slider-prefix-cls}-handle, .@{slider-prefix-cls}-dot {
+    .@{slider-prefix-cls}-handle,
+    .@{slider-prefix-cls}-dot {
       border-color: @slider-disabled-color!important;
       background-color: #fff;
       cursor: not-allowed;
     }
 
-    .@{slider-prefix-cls}-mark-text, .@{slider-prefix-cls}-dot {
+    .@{slider-prefix-cls}-mark-text,
+    .@{slider-prefix-cls}-dot {
       cursor: not-allowed!important;
     }
   }

@@ -7,6 +7,7 @@
 .input-sm() {
   padding: @input-padding-vertical-sm @input-padding-horizontal;
   height: @input-height-sm;
+  border-radius: @border-radius-sm;
 }
 
 // input status
@@ -18,7 +19,7 @@
 }
 
 // == when hoverd
-.hover(@color: @input-hover-border-color ) {
+.hover(@color: @input-hover-border-color) {
   border-color: tint(@color, 20%);
 }
 
@@ -26,6 +27,7 @@
   background-color: @input-disabled-bg;
   opacity: 1;
   cursor: @cursor-disabled;
+  color: #ccc;
   &:hover {
     .hover(@input-border-color);
   }
@@ -131,6 +133,10 @@
     vertical-align: middle;
   }
 
+  &-wrap > * {
+    display: block;
+  }
+
   .@{inputClass} {
     position: relative;
     z-index: 2;
@@ -152,7 +158,7 @@
   }
 
   // Reset rounded corners
-  > div > .@{inputClass}:first-child,
+  > span > .@{inputClass}:first-child,
   > .@{inputClass}:first-child,
   &-addon:first-child {
     border-bottom-right-radius: 0;

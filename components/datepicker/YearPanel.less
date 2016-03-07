@@ -1,6 +1,6 @@
 .@{calendar-prefix-cls}-year-panel {
   left: 0;
-  top: 0;
+  top: 34px;
   bottom: 0;
   right: 0;
   background: #fff;
@@ -57,10 +57,10 @@
   }
 }
 
-.@{calendar-prefix-cls}-year-panel-last-decade-cell, .@{calendar-prefix-cls}-year-panel-next-decade-cell {
-  .@{calendar-prefix-cls}-year-panel-year{
+.@{calendar-prefix-cls}-year-panel-last-decade-cell,
+.@{calendar-prefix-cls}-year-panel-next-decade-cell {
+  .@{calendar-prefix-cls}-year-panel-year {
     user-select: none;
-    -webkit-user-select: none;
   }
   .@{calendar-prefix-cls}-year-panel-year:before {
     content: "\e600";
@@ -69,9 +69,6 @@
 }
 
 .@{calendar-prefix-cls}-year-panel-last-decade-cell {
-  .@{calendar-prefix-cls}-year-panel-year {
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  }
   .@{calendar-prefix-cls}-year-panel-year:before {
     content: "\e601";
   }

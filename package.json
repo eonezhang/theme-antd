@@ -1,13 +1,13 @@
 {
   "name": "vue-component-theme-antd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Common Utils For Vue Component",
   "keywords": [
     "vue",
     "theme",
     "antd"
   ],
-  "main": "./src/index.less",
+  "main": "index.less",
   "homepage": "https://github.com/vue-components/theme-antd",
   "author": "Koala Huang <dapixp@gmail.com>",
   "repository": {

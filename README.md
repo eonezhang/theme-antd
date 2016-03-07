@@ -12,8 +12,6 @@ ant-design 样式库
 
 |-- themes  (皮肤)
 
-|-- fix  (针对vue的样式调整)
-
 ## 约定
 
 @css-prefix 变量定义整个样式库的类名前缀，默认为 `ant-`，
@@ -21,7 +19,3 @@ ant-design 样式库
 各个组件中如要自定义类名前缀，请误重名变量，可参照如下定义：
 
 `@btn-prefix-cls: ~"@{css-prefix}btn";`
-
-## Install
-
-```npm install vue-component-theme-antd --save```
